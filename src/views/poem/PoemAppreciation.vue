@@ -81,7 +81,6 @@ export default {
 .poemAppreciation{
   flex: 0.7;
   height: auto;
-  margin-bottom: 50px;
   padding-bottom: 15px;
   background-color: #fff;
 }

@@ -77,6 +77,7 @@ export default {
   position: fixed;
   height: auto;width: 100%;
   background-color: white;
+  /* margin-bottom: 50px; */
   z-index: 999;
 }
 /* element */

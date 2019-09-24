@@ -1,12 +1,10 @@
 <template>
   <div id="app">
-    <!-- <router-view class="indexHeader" name="indexHeader"></router-view> -->
     <IndexHeader></IndexHeader>
     <main>
       <keep-alive>
         <router-view></router-view>
       </keep-alive>
-      <!-- <router-view class="indexAside" name="indexAside" :propdata='data'></router-view> -->
       <IndexAside :routeData='routeData'></IndexAside>
     </main>
     <router-view class="indexFooter" name="indexFooter"></router-view>
@@ -45,7 +43,7 @@ export default {
 main{
   width: 100%;
   max-width: 1050px;
-  margin: 150px auto;
+  margin: 150px auto 50px;
   display: flex;
   flex: 1;
   flex-direction: row;

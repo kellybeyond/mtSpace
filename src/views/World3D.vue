@@ -50,7 +50,6 @@ export default {
 .world3D{
   flex: 0.7;
   height: auto;
-  margin-bottom: 50px;
   background-color: #fff;
 }
 /* element相关样式 */
