@@ -51,7 +51,6 @@ export default {
   flex: 0.7;
   height: auto;
   margin-bottom: 50px;
-  margin-top: 60px;
   background-color: #fff;
 }
 /* element相关样式 */
