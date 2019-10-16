@@ -13,6 +13,12 @@ Vue.use(VueAxios, axios)
 Vue.config.productionTip = false
 Vue.use(ElementUI)
 
+// requirejs.config({
+//   paths : {
+//     jedate : 'jedate/jedate'
+//   }
+// })
+
 new Vue({
   router,
   store,

@@ -12,7 +12,7 @@
         <div>
           <img src="https://shadow.elemecdn.com/app/element/hamburger.9cf7b091-55e9-11e9-a976-7f4d0b07eef6.png" class="image">
           <div style="padding: 14px;">
-            <span>好吃的汉堡</span>
+            <span>好吃的汉堡{{test}}</span>
           </div>
         </div>
       </div>
@@ -22,7 +22,7 @@
         <div>
           <img src="https://shadow.elemecdn.com/app/element/hamburger.9cf7b091-55e9-11e9-a976-7f4d0b07eef6.png" class="image">
           <div style="padding: 14px;">
-            <span>好吃的汉堡</span>
+            <span>好吃的汉堡{{test2}}</span>
           </div>
         </div>
       </div>
@@ -42,7 +42,19 @@
 
 <script>
 export default {
-  name: 'home'
+  name: 'home',
+  data () {
+    return {
+      test: '111',
+      test2: '222'
+    }
+  },
+  mounted () {
+    let test = window.outerWidth
+    let test2 = window.innerWidth
+    this.test = test
+    this.test2 = test2
+  }
 }
 </script>
 <style scoped>

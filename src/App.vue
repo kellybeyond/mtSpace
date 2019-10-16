@@ -2,9 +2,7 @@
   <div id="app">
     <IndexHeader></IndexHeader>
     <main>
-      <keep-alive>
-        <router-view></router-view>
-      </keep-alive>
+      <router-view></router-view>
       <IndexAside :routeData='routeData'></IndexAside>
     </main>
     <router-view class="indexFooter" name="indexFooter"></router-view>
